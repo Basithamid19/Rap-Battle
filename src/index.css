@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .shadow-neo-sm {
+    box-shadow: 2px 2px 0px 0px #000;
+  }
+  .shadow-neo {
+    box-shadow: 4px 4px 0px 0px #000;
+  }
+  .shadow-neo-lg {
+    box-shadow: 6px 6px 0px 0px #000;
+  }
+  .shadow-neo-xl {
+    box-shadow: 8px 8px 0px 0px #000;
+  }
+  .shadow-neo-yellow {
+    box-shadow: 4px 4px 0px 0px #FFE600;
+  }
+  .shadow-neo-pink {
+    box-shadow: 4px 4px 0px 0px #FF5470;
+  }
+  .btn-neo {
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px 0px #000;
+    transition: all 0.12s ease;
+  }
+  .btn-neo:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 3px 3px 0px 0px #000;
+  }
+  .btn-neo:active {
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 0px 0px #000;
+  }
+}
+
+/* Neo-Brutalist typography helper classes */
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+.font-heading {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.font-mono-code {
+  font-family: 'Space Mono', monospace;
+}
+

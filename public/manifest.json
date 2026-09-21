@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Boho Rap Battle",
+  "short_name": "BohoRap",
+  "description": "Multiplayer Bohemian-themed hip-hop verse fill-in-the-blank party game.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFDF0",
+  "theme_color": "#FFE600",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

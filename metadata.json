@@ -1,0 +1,6 @@
+{
+  "name": "Boho Rap Battle",
+  "description": "A multiplayer Neo-Brutalist hip-hop verse fill-in-the-blank party game with real-time room sync, studio rap beats, and interactive voting.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
